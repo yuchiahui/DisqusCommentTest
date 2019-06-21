@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<META charset="UTF-8">
+		<META name="viewport" content="width=device-width, initial-scale=1.0">
+		<SCRIPT src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></SCRIPT>
+		<TITLE>DISQUS COMMENT</TITLE>
+
+	</HEAD>
+	<BODY id="BODY">
+		<!--<A href="http://foo.com/bar.html#disqus_thread">Link</A>-->
+		<DIV id="disqus_thread"></DIV>
+		<SCRIPT>
+			/**
+			 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+			/*
+			 var disqus_config = function () {
+			 this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+			 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			 };
+			 */
+			(function () { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('SCRIPT');
+				s.src = 'https://learnitwell.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</SCRIPT>
+		<NOSCRIPT>Please enable JavaScript to view the <A href="https://disqus.com/?ref_noscript">comments powered by Disqus.</A></NOSCRIPT>
+		<SCRIPT id="dsq-count-scr" src="//learnitwell.disqus.com/count.js" async></SCRIPT>
+		<!--<SCRIPT src="/js/myJavascript.js"></SCRIPT>-->
+	</BODY>
+</HTML>
